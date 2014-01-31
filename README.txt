@@ -3,6 +3,16 @@ This LabVIEW project "CS++.lvproj" is used to develop the successor of the CS Fr
 - CS++ will be based on native LabVIEW classes and the Actor Framework.
 - CS++ will follow the KISS principle: "Keep It Smart & Simple"
 
+The project GIT workflow contains four branches: 
+- Preview: new ideas and prototypes
+- MainDev: main development line
+- RC: release candidates
+- master: released versions
+
+Currently used development SW is LabVIEW 2013
+
+Project is just started, so the most active branch is at the moment preview.
+
 Related documents and information
 =================================
 - README.txt
