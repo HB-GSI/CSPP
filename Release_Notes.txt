@@ -5,6 +5,10 @@ This LabVIEW project "CS++.lvproj" is used to develop the successor of the CS Fr
 - CS++ will be based on native LabVIEW classes and the actor framework.
 - CS++ will follow the KISS principle: "Keep It Smart & Simple"
 
+Version 0.0.0.1
+============
+Add user requirements specification.
+
 Version 0.0.0.0
 ============
 The project was just started. There is the master branch with license only.
