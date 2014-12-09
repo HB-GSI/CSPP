@@ -56,7 +56,7 @@ Getting started:
 - Create a project specific copy of "CS++.lvproj"
   - or add CS++CoreContent.vi into your own LabVIEW project. You can drag the desired libraries from the dependencies into your virtual project folder structure.
 - CS++UserContents.vi; Include your project specific Content-VIs in a corresponding case of the conditional disable structure. This VI is included in the "CS++StartActor:Launch CS++StartActor.vi". This makes building an application convenient since the application builder can find all dependencies in the VI-Hierarchy.
-- You need to create your project specific ini-file, like "CSPP_Core.ini" containing samples of all classes and actors, etc.
+- You need to create your project specific CS++.ini-file, like "CSPP_Core.ini" containing samples of all classes and actors, etc.
 - You need to create and deploy your project specific shared Variable libraries.
   - Sample shared variable libraries should be available on disk in the corresponding package folder.
 - Create a hard link to the custom error file(s): 
