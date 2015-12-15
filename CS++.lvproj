@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="14008000">
+<Project Type="Project" LVVersion="15008000">
 	<Property Name="CCSymbols" Type="Str">CSPP_BuildContent,CSPP_Core;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str">This LabVIEW project "CS++.lvproj" is used to develop the successor of the CS Framework.
@@ -24,12 +24,16 @@ Sofern nicht durch anwendbare Rechtsvorschriften gefordert oder in schriftlicher
 Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind dem Lizenztext zu entnehmen.</Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Property Name="varPersistentID:{1677FA6A-0BCC-4206-BC8B-D00BC60BA8BD}" Type="Ref">/My Computer/Packages/Core/CSPP-Core-SV.lvlib/myDeviceActor_FirmwareRevision</Property>
+	<Property Name="varPersistentID:{329A689D-34AF-477C-B2F5-5E9337B3F32A}" Type="Ref">/My Computer/Packages/Core/CSPP-Core-SV.lvlib/myDeviceActor_SelfTest</Property>
 	<Property Name="varPersistentID:{48D7A08B-6EF2-4CDA-87DD-F286C35A1955}" Type="Ref">/My Computer/Packages/Core/CSPP-Core-SV.lvlib/myDeviceActor_ErrorMessage</Property>
 	<Property Name="varPersistentID:{4FAD6CE1-B984-4998-9646-A1ED53466927}" Type="Ref">/My Computer/Packages/Core/CSPP-Core-SV.lvlib/myDeviceActor_ResourceName</Property>
+	<Property Name="varPersistentID:{61C2D2BF-F0B0-450D-98D1-82CED21DC357}" Type="Ref">/My Computer/Packages/Core/CSPP-Core-SV.lvlib/myDeviceActor_Activate</Property>
 	<Property Name="varPersistentID:{733D22D1-8B37-4406-8C85-5063C45AFFE1}" Type="Ref">/My Computer/Packages/Core/CSPP-Core-SV.lvlib/myDeviceActor_SelftestResultCode</Property>
 	<Property Name="varPersistentID:{7E682F28-8BE5-467E-BDC8-8252971F921D}" Type="Ref">/My Computer/Packages/Core/CSPP-Core-SV.lvlib/myDeviceActor_SelftestResultMessage</Property>
+	<Property Name="varPersistentID:{8C9A79DC-7DBD-48D2-B98E-4F41407E5390}" Type="Ref">/My Computer/Packages/Core/CSPP-Core-SV.lvlib/myDeviceActor_Reset</Property>
 	<Property Name="varPersistentID:{CFC1FE5E-2C70-4F41-8421-FE67EF8AB980}" Type="Ref">/My Computer/Packages/Core/CSPP-Core-SV.lvlib/myDeviceActor_DriverRevision</Property>
 	<Property Name="varPersistentID:{D04E0FB1-48B8-472A-9D48-70E2627F2FFD}" Type="Ref">/My Computer/Packages/Core/CSPP-Core-SV.lvlib/myDeviceActor_ErrorCode</Property>
+	<Property Name="varPersistentID:{E11CE01F-F50D-482F-9E8E-6CE8DC60CC5B}" Type="Ref">/My Computer/Packages/Core/CSPP-Core-SV.lvlib/myDeviceActor_WorkerActor</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -78,9 +82,9 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 					<Item Name="CS++GUIActor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++GUIActor/CS++GUIActor.lvlib"/>
 					<Item Name="CS++PVMonitor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++PVMonitor/CS++PVMonitor.lvlib"/>
 					<Item Name="CS++SVMonitor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++SVMonitor/CS++SVMonitor.lvlib"/>
-					<Item Name="CS++ControllerActor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++ControllerActor/CS++ControllerActor.lvlib"/>
 					<Item Name="CS++DeviceActor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++DeviceActor/CS++DeviceActor.lvlib"/>
 					<Item Name="CS++DeviceGUIActor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++DeviceGUIActor/CS++DeviceGUIActor.lvlib"/>
+					<Item Name="CS++PVProxy.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++PVProxy/CS++PVProxy.lvlib"/>
 				</Item>
 				<Item Name="Classes" Type="Folder">
 					<Item Name="CS++BaseClasses.lvlib" Type="Library" URL="../Packages/CSPP_Core/Classes/CS++BaseClasses/CS++BaseClasses.lvlib"/>
@@ -148,7 +152,11 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 			</Item>
+			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
+			<Item Name="CS++CoreGUIContent.vi" Type="VI" URL="../Packages/CSPP_Core/CS++CoreGUIContent.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
