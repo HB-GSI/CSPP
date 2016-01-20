@@ -81,11 +81,11 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 					<Item Name="CS++BaseActor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++BaseActor/CS++BaseActor.lvlib"/>
 					<Item Name="CS++GUIActor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++GUIActor/CS++GUIActor.lvlib"/>
 					<Item Name="CS++PVMonitor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++PVMonitor/CS++PVMonitor.lvlib"/>
+					<Item Name="CS++DSMonitor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++DSMonitor/CS++DSMonitor.lvlib"/>
 					<Item Name="CS++SVMonitor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++SVMonitor/CS++SVMonitor.lvlib"/>
 					<Item Name="CS++DeviceActor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++DeviceActor/CS++DeviceActor.lvlib"/>
 					<Item Name="CS++DeviceGUIActor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++DeviceGUIActor/CS++DeviceGUIActor.lvlib"/>
 					<Item Name="CS++PVProxy.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++PVProxy/CS++PVProxy.lvlib"/>
-					<Item Name="CS++DSMonitor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++DSMonitor/CS++DSMonitor.lvlib"/>
 				</Item>
 				<Item Name="Classes" Type="Folder">
 					<Item Name="CS++BaseClasses.lvlib" Type="Library" URL="../Packages/CSPP_Core/Classes/CS++BaseClasses/CS++BaseClasses.lvlib"/>
