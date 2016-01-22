@@ -28,6 +28,7 @@ Related documents and information
 GIT Submodules
 ==============
 - Packages/CSPP_Core: This package is used as submodule.
+- Packages/CSPP_ObjectManager: This package is used as submodule.
 
 Run to pull:
   - git submodule init
@@ -50,19 +51,21 @@ Optional External Dependencies
 Getting started:
 =================================
 - Clone this repository, if not alread done.
+- Switch to the desired branch.
 - Get submodules:
   - git submodule init
   - git submodule update
-- Create a project specific copy of "CS++.lvproj"
+- Create a hard link to the custom error file(s): 
+  - cd <LabVIEW 2015>\user.lib\errors
+  - mklink /h CS++Core-errors.txt Packages\CSPP_Core\CS++Core-errors.txt
+- Create a project specific copy of "CS++.lvproj" ( or "CS++-Linux.lvproj") 
   - or add CS++CoreContent.vi into your own LabVIEW project. You can drag the desired libraries from the dependencies into your virtual project folder structure.
-- CS++UserContents.vi; Include your project specific Content-VIs in a corresponding case of the conditional disable structure. This VI is included in the "CS++StartActor:Launch CS++StartActor.vi". This makes building an application convenient since the application builder can find all dependencies in the VI-Hierarchy.
 - You need to create your project specific CS++.ini-file, like "CSPP_Core.ini" containing samples of all classes and actors, etc.
 - You need to create and deploy your project specific shared Variable libraries.
   - Sample shared variable libraries should be available on disk in the corresponding package folder.
-- Create a hard link to the custom error file(s): 
-  - cd <LabVIEW 2014>\user.lib\errors
-  - mklink /h CS++Core-errors.txt Packages\CSPP_Core\CS++Core-errors.txt
-- Run your project specific "CS++Main.vi" or "CS++StartActor:Launch CS++StartActor.vi"
+  - Ff you plan to used process variables on Linux, you need to configure the DataSocket-Server on a Window-PC first. 
+- Run your project specific "CS++Main.vi"
+  - Concatenate the desired Content.vi's, at least _CS++CoreContent.vi_ or _CS++CoreContent-Linux.vi_ , to the _Launch CS++StartActor.vi_ before execution.
 
 Author: H.Brand@gsi.de, D.Neidherr@gsi.de
 

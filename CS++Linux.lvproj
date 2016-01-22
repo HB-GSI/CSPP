@@ -23,17 +23,17 @@ Sofern nicht durch anwendbare Rechtsvorschriften gefordert oder in schriftlicher
 
 Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind dem Lizenztext zu entnehmen.</Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
-	<Property Name="varPersistentID:{00296E75-DD25-4440-8AE4-6CDFA7513578}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_ErrorCode</Property>
-	<Property Name="varPersistentID:{18ED7C85-4BA8-40BB-8AF6-5B6540C45C46}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_Activate</Property>
-	<Property Name="varPersistentID:{1F7F4477-A877-49F2-9C34-D9101C9DF04C}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_SelftestResultCode</Property>
-	<Property Name="varPersistentID:{2BD118A0-E31A-41BB-B5CD-109E5CA27505}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_SelftestResultMessage</Property>
-	<Property Name="varPersistentID:{538BCEB2-FCE4-4C79-AEAD-9EB4A567FF7C}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_SelfTest</Property>
-	<Property Name="varPersistentID:{88F2356E-1A84-47D6-ADDF-474D64567B19}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_FirmwareRevision</Property>
-	<Property Name="varPersistentID:{A003D4F9-2D91-40F4-8F4B-087BCB4A0CA6}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_ResourceName</Property>
-	<Property Name="varPersistentID:{C053C449-2D11-4798-9A6D-3F6307872C0C}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_DriverRevision</Property>
-	<Property Name="varPersistentID:{D3E59E98-5151-4778-ACB0-EF8FFD66E02B}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_ErrorMessage</Property>
-	<Property Name="varPersistentID:{E819F6F1-01D9-4B51-B5DE-C1646ACD3C07}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_Reset</Property>
-	<Property Name="varPersistentID:{FF54AEA5-0DE5-44DC-91D6-1A099781089A}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_WorkerActor</Property>
+	<Property Name="varPersistentID:{1677FA6A-0BCC-4206-BC8B-D00BC60BA8BD}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_FirmwareRevision</Property>
+	<Property Name="varPersistentID:{329A689D-34AF-477C-B2F5-5E9337B3F32A}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_SelfTest</Property>
+	<Property Name="varPersistentID:{48D7A08B-6EF2-4CDA-87DD-F286C35A1955}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_ErrorMessage</Property>
+	<Property Name="varPersistentID:{4FAD6CE1-B984-4998-9646-A1ED53466927}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_ResourceName</Property>
+	<Property Name="varPersistentID:{61C2D2BF-F0B0-450D-98D1-82CED21DC357}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_Activate</Property>
+	<Property Name="varPersistentID:{733D22D1-8B37-4406-8C85-5063C45AFFE1}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_SelftestResultCode</Property>
+	<Property Name="varPersistentID:{7E682F28-8BE5-467E-BDC8-8252971F921D}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_SelftestResultMessage</Property>
+	<Property Name="varPersistentID:{8C9A79DC-7DBD-48D2-B98E-4F41407E5390}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_Reset</Property>
+	<Property Name="varPersistentID:{CFC1FE5E-2C70-4F41-8421-FE67EF8AB980}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_DriverRevision</Property>
+	<Property Name="varPersistentID:{D04E0FB1-48B8-472A-9D48-70E2627F2FFD}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_ErrorCode</Property>
+	<Property Name="varPersistentID:{E11CE01F-F50D-482F-9E8E-6CE8DC60CC5B}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_WorkerActor</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -82,7 +82,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 					<Item Name="CS++GUIActor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++GUIActor/CS++GUIActor.lvlib"/>
 					<Item Name="CS++PVMonitor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++PVMonitor/CS++PVMonitor.lvlib"/>
 					<Item Name="CS++DSMonitor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++DSMonitor/CS++DSMonitor.lvlib"/>
-					<Item Name="CS++SVMonitor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++SVMonitor/CS++SVMonitor.lvlib"/>
 					<Item Name="CS++DeviceActor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++DeviceActor/CS++DeviceActor.lvlib"/>
 					<Item Name="CS++DeviceGUIActor.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++DeviceGUIActor/CS++DeviceGUIActor.lvlib"/>
 					<Item Name="CS++PVProxy.lvlib" Type="Library" URL="../Packages/CSPP_Core/Actors/CS++PVProxy/CS++PVProxy.lvlib"/>
@@ -90,14 +89,12 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="Classes" Type="Folder">
 					<Item Name="CS++BaseClasses.lvlib" Type="Library" URL="../Packages/CSPP_Core/Classes/CS++BaseClasses/CS++BaseClasses.lvlib"/>
 					<Item Name="CS++ProcessVariables.lvlib" Type="Library" URL="../Packages/CSPP_Core/Classes/CS++ProcessVariables/CS++ProcessVariables.lvlib"/>
-					<Item Name="CS++SharedVariables.lvlib" Type="Library" URL="../Packages/CSPP_Core/Classes/CS++ProcessVariables/SVConnection/CS++SharedVariables.lvlib"/>
 				</Item>
 				<Item Name="Libraries" Type="Folder">
 					<Item Name="CS++Base.lvlib" Type="Library" URL="../Packages/CSPP_Core/Libraries/Base/CS++Base.lvlib"/>
 					<Item Name="CS++Utilities.lvlib" Type="Library" URL="../Packages/CSPP_Core/Libraries/Utilities/CS++Utilities.lvlib"/>
 				</Item>
 				<Item Name="CS++.ico" Type="Document" URL="../Documentation/CS++.ico"/>
-				<Item Name="CS++CoreContent.vi" Type="VI" URL="../Packages/CSPP_Core/CS++CoreContent.vi"/>
 				<Item Name="CS++CoreContent-Linux.vi" Type="VI" URL="../Packages/CSPP_Core/CS++CoreContent-Linux.vi"/>
 				<Item Name="CS++CoreGUIContent.vi" Type="VI" URL="../Packages/CSPP_Core/CS++CoreGUIContent.vi"/>
 				<Item Name="CS++Core.ini" Type="Document" URL="../Packages/CSPP_Core/CS++Core.ini"/>
@@ -110,8 +107,8 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Item Name="README.txt" Type="Document" URL="../README.txt"/>
 		<Item Name="Release_Notes.txt" Type="Document" URL="../Release_Notes.txt"/>
 		<Item Name="Change_Log.txt" Type="Document" URL="../Change_Log.txt"/>
-		<Item Name="CS++Main.vi" Type="VI" URL="../CS++Main.vi"/>
-		<Item Name="CS++.ini" Type="Document" URL="../CS++.ini"/>
+		<Item Name="CS++Linux.ini" Type="Document" URL="../CS++Linux.ini"/>
+		<Item Name="CS++Main-Linux.vi" Type="VI" URL="../CS++Main-Linux.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
