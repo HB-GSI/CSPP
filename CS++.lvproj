@@ -24,16 +24,17 @@ Sofern nicht durch anwendbare Rechtsvorschriften gefordert oder in schriftlicher
 Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind dem Lizenztext zu entnehmen.</Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Property Name="varPersistentID:{00296E75-DD25-4440-8AE4-6CDFA7513578}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_ErrorCode</Property>
-	<Property Name="varPersistentID:{18ED7C85-4BA8-40BB-8AF6-5B6540C45C46}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_Activate</Property>
+	<Property Name="varPersistentID:{18ED7C85-4BA8-40BB-8AF6-5B6540C45C46}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceProxy_Activate</Property>
 	<Property Name="varPersistentID:{1F7F4477-A877-49F2-9C34-D9101C9DF04C}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_SelftestResultCode</Property>
 	<Property Name="varPersistentID:{2BD118A0-E31A-41BB-B5CD-109E5CA27505}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_SelftestResultMessage</Property>
+	<Property Name="varPersistentID:{33701F7D-1557-4DBA-A5B8-CBCD2F195CEF}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDouble</Property>
 	<Property Name="varPersistentID:{538BCEB2-FCE4-4C79-AEAD-9EB4A567FF7C}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_SelfTest</Property>
 	<Property Name="varPersistentID:{88F2356E-1A84-47D6-ADDF-474D64567B19}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_FirmwareRevision</Property>
 	<Property Name="varPersistentID:{A003D4F9-2D91-40F4-8F4B-087BCB4A0CA6}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_ResourceName</Property>
 	<Property Name="varPersistentID:{C053C449-2D11-4798-9A6D-3F6307872C0C}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_DriverRevision</Property>
 	<Property Name="varPersistentID:{D3E59E98-5151-4778-ACB0-EF8FFD66E02B}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_ErrorMessage</Property>
 	<Property Name="varPersistentID:{E819F6F1-01D9-4B51-B5DE-C1646ACD3C07}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_Reset</Property>
-	<Property Name="varPersistentID:{FF54AEA5-0DE5-44DC-91D6-1A099781089A}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_WorkerActor</Property>
+	<Property Name="varPersistentID:{FF54AEA5-0DE5-44DC-91D6-1A099781089A}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceProxy_WorkerActor</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -103,8 +104,10 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="CS++Core.ini" Type="Document" URL="../Packages/CSPP_Core/CS++Core.ini"/>
 				<Item Name="CSPP_Core_SV.lvlib" Type="Library" URL="../Packages/CSPP_Core/CSPP_Core_SV.lvlib"/>
 			</Item>
-			<Item Name="CS++ObjectManager.lvlib" Type="Library" URL="../Packages/CSPP_ObjectManager/CS++ObjectManager.lvlib"/>
-			<Item Name="CS++ObjectManager_Content.vi" Type="VI" URL="../Packages/CSPP_ObjectManager/CS++ObjectManager_Content.vi"/>
+			<Item Name="ObjectManager" Type="Folder">
+				<Item Name="CS++ObjectManager.lvlib" Type="Library" URL="../Packages/CSPP_ObjectManager/CS++ObjectManager.lvlib"/>
+				<Item Name="CS++ObjectManager_Content.vi" Type="VI" URL="../Packages/CSPP_ObjectManager/CS++ObjectManager_Content.vi"/>
+			</Item>
 		</Item>
 		<Item Name="User" Type="Folder"/>
 		<Item Name="README.txt" Type="Document" URL="../README.txt"/>
