@@ -63,7 +63,7 @@ Getting started:
 - You need to create your project specific CS++.ini-file, like "CSPP_Core.ini" containing samples of all classes and actors, etc.
 - You need to create and deploy your project specific shared Variable libraries.
   - Sample shared variable libraries should be available on disk in the corresponding package folder.
-  - Ff you plan to used process variables on Linux, you need to configure the DataSocket-Server on a Window-PC first. 
+  - If you plan to used process variables on Linux, you need to configure the DataSocket-Server on a Window-PC first. 
 - Run your project specific "CS++Main.vi"
   - Concatenate the desired Content.vi's, at least _CS++CoreContent.vi_ or _CS++CoreContent-Linux.vi_ , to the _Launch CS++StartActor.vi_ before execution.
 

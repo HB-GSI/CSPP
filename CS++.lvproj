@@ -46,6 +46,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="varPersistentID:{D3E59E98-5151-4778-ACB0-EF8FFD66E02B}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_ErrorMessage</Property>
 	<Property Name="varPersistentID:{E819F6F1-01D9-4B51-B5DE-C1646ACD3C07}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceActor_Reset</Property>
 	<Property Name="varPersistentID:{F0C3308B-E714-4F46-A07C-EDE51CCBA0B0}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/ObjectManager_PollingMode</Property>
+	<Property Name="varPersistentID:{FCD50859-202C-477E-A574-056F047F0547}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/ObjectManager_PollingInterval</Property>
 	<Property Name="varPersistentID:{FF54AEA5-0DE5-44DC-91D6-1A099781089A}" Type="Ref">/My Computer/Packages/Core/CSPP_Core_SV.lvlib/myDeviceProxy_WorkerActor</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -175,6 +176,8 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
 				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
+				<Item Name="Batch Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Batch Msg/Batch Msg.lvclass"/>
+				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 		</Item>
