@@ -1,0 +1,4 @@
+- CS++UserContent.vi
+  - Remove project specific content-VIs.
+  - Set conditional disable symbol "CSPP_BuildContent=CSPP_Core"
+  - CS++Example.ini; check [CS++StartActor.StartActors]

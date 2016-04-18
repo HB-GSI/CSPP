@@ -1,0 +1,6 @@
+[submodule "Packages/CSPP_Core"]
+	path = Packages/CSPP_Core
+	url = https://github.com/HB-GSI/CSPP_Core
+[submodule "Packages/CSPP_ObjectManager"]
+	path = Packages/CSPP_ObjectManager
+	url = https://github.com/HB-GSI/CSPP_ObjectManager.git
