@@ -9,7 +9,7 @@ The project GIT workflow contains four branches:
 - RC: release candidates
 - master: released versions
 
-Currently used development SW is LabVIEW 2014
+Currently used development SW is LabVIEW 2015 SP1
 
 Project is in pre-alpha state, so the most active branch at the moment is MainDev.
 
