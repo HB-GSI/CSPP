@@ -64,16 +64,21 @@ Getting started:
 - Run your project specific "CS++Main.vi"
   - Concatenate the desired Content.vi's, at least _CS++CoreContent.vi_ or _CS++CoreContent-Linux.vi_ , to the _Launch CS++StartActor.vi_ before execution.
 
+Known issues:
+=============
+- Actor-Frontpanel-Web-Publishing is not supported in the LabVIEW development environment, but from an executable. You may need to change the WebServer-Listener port in niwebserver.conf, e.g. Listen 8082.
+Be aware that VIs with '+' in their fully qualified name are sot supported for unknon reason (LabVIEW-Bug?).
+
 Author: H.Brand@gsi.de, D.Neidherr@gsi.de
 
-Copyright 2013  GSI Helmholtzzentrum f¸r Schwerionenforschung GmbH
+Copyright 2013  GSI Helmholtzzentrum f√ºr Schwerionenforschung GmbH
 
 Planckstr.1, 64291 Darmstadt, Germany
 
-Lizenziert unter der EUPL, Version 1.1 oder - sobald diese von der Europ‰ischen Kommission genehmigt wurden - Folgeversionen der EUPL ("Lizenz"); Sie d¸rfen dieses Werk ausschlieﬂlich gem‰ﬂ dieser Lizenz nutzen.
+Lizenziert unter der EUPL, Version 1.1 oder - sobald diese von der Europ√§ischen Kommission genehmigt wurden - Folgeversionen der EUPL ("Lizenz"); Sie d√ºrfen dieses Werk ausschlie√ülich gem√§√ü dieser Lizenz nutzen.
 
 Eine Kopie der Lizenz finden Sie hier: http://www.osor.eu/eupl
 
-Sofern nicht durch anwendbare Rechtsvorschriften gefordert oder in schriftlicher Form vereinbart, wird die unter der Lizenz verbreitete Software "so wie sie ist", OHNE JEGLICHE GEWƒHRLEISTUNG ODER BEDINGUNGEN - ausdr¸cklich oder stillschweigend - verbreitet.
+Sofern nicht durch anwendbare Rechtsvorschriften gefordert oder in schriftlicher Form vereinbart, wird die unter der Lizenz verbreitete Software "so wie sie ist", OHNE JEGLICHE GEW√ÑHRLEISTUNG ODER BEDINGUNGEN - ausdr√ºcklich oder stillschweigend - verbreitet.
 
-Die sprachspezifischen Genehmigungen und Beschr‰nkungen unter der Lizenz sind dem Lizenztext zu entnehmen.
+Die sprachspezifischen Genehmigungen und Beschr√§nkungen unter der Lizenz sind dem Lizenztext zu entnehmen.
