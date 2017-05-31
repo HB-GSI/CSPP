@@ -67,7 +67,7 @@ Getting started:
 Known issues:
 =============
 - Actor-Frontpanel-Web-Publishing is not supported in the LabVIEW development environment, but from an executable. You may need to change the WebServer-Listener port in niwebserver.conf, e.g. Listen 8082.
-Be aware that VIs with '+' in their fully qualified name are sot supported for unknon reason (LabVIEW-Bug?).
+Be aware that VIs with '+' in their fully qualified name are not supported for unknown reason (LabVIEW-Bug?).
 
 Author: H.Brand@gsi.de, D.Neidherr@gsi.de
 
