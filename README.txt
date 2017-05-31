@@ -1,17 +1,11 @@
-This LabVIEW project "CS++.lvproj" is used to develop the successor of the CS Framework and is based on LVOOP and the Actor Framework.
+CS++ README
+===========
+This LabVIEW project "CS++.lvproj" is used to develop the successor of the CS Framework.
 
-- CS++ will be based on native LabVIEW classes and the Actor Framework.
-- CS++ will follow the KISS principle: "Keep It Smart & Simple"
+- CS++ is based on native LabVIEW classes and the Actor Framework.
+- CS++ follows the KISS principle: "Keep It Smart & Simple"
 
-The project GIT workflow contains four branches: 
-- Preview: new ideas and prototypes
-- MainDev: main development line
-- RC: release candidates
-- master: released versions
-
-Currently used development SW is LabVIEW 2015 SP1
-
-Project is in pre-alpha state, so the most active branch at the moment is MainDev.
+Currently used development SW is LabVIEW 2016.0f2
 
 Related documents and information
 =================================
@@ -19,7 +13,7 @@ Related documents and information
 - Release_Notes.txt
 - EUPL v.1.1 - Lizenz.pdf
 - Contact: H.Brand@gsi.de or D.Neidherr@gsi.de
-- Download, bug reports... : http://github.com/HB-GSI/CSPP
+- Download, bug reports... : https://git.gsi.de/EE-LV/CSPP/CSPP.git
 - Documentation:
   - Refer to Documantation Folder 
   - NI Actor Framework: https://decibel.ni.com/content/groups/actor-framework-2011?view=overview
@@ -40,8 +34,11 @@ Optional submodules
 - Packages/CSPP_IVI: Implementations of derived CS++Device classes using IVI driver
 - Packages/CSPP_DSC: Containing DSC Alarm- & Trend-Viewer
 - Packages/CSPP_DIM: Providing DIM for PV communication
+- Packages/CSPP_OPCUA: Providing an interface to OPCUA server 
+- Packages/CSPP_RT: Providing a librarie supporting LabVIEW-RT features. 
 - Packages/CSPP_Syslog: Providing a Syslog based Message Handler 
-- Packages/CSPP_Examples: Illustrating the usage of the above packages
+- Packages/CSPP_Utilities: Providing some usefull utility classes. 
+- Packages/CSPP_Examples: Illustrating the usage of the some of the above packages
 
 Optional External Dependencies
 =================================
@@ -61,9 +58,9 @@ Getting started:
 - Create a project specific copy of "CS++.lvproj" ( or "CS++-Linux.lvproj") 
   - or add CS++CoreContent.vi into your own LabVIEW project. You can drag the desired libraries from the dependencies into your virtual project folder structure.
 - You need to create your project specific CS++.ini-file, like "CSPP_Core.ini" containing samples of all classes and actors, etc.
-- You need to create and deploy your project specific shared Variable libraries.
+- You need to create and deploy your project specific shared variable libraries.
   - Sample shared variable libraries should be available on disk in the corresponding package folder.
-  - If you plan to used process variables on Linux, you need to configure the DataSocket-Server on a Window-PC first. 
+  - If you plan to used process variables on Linux, you are restricted to DataSocket and you need to configure the DataSocket-Server on a Window-PC first. 
 - Run your project specific "CS++Main.vi"
   - Concatenate the desired Content.vi's, at least _CS++CoreContent.vi_ or _CS++CoreContent-Linux.vi_ , to the _Launch CS++StartActor.vi_ before execution.
 
