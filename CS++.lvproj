@@ -131,12 +131,12 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			</Item>
 		</Item>
 		<Item Name="User" Type="Folder"/>
-		<Item Name="README.txt" Type="Document" URL="../README.txt"/>
 		<Item Name="Release_Notes.txt" Type="Document" URL="../Release_Notes.txt"/>
 		<Item Name="Change_Log.txt" Type="Document" URL="../Change_Log.txt"/>
 		<Item Name="CS++Main.vi" Type="VI" URL="../CS++Main.vi"/>
 		<Item Name="CS++.ini" Type="Document" URL="../CS++.ini"/>
 		<Item Name="CSPP.ico" Type="Document" URL="../CSPP.ico"/>
+		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -248,7 +248,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/README.txt</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Release_Notes.txt</Property>
